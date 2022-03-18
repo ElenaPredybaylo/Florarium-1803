@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Магазин флорариумов</title>
+</head>
+
+<body>
+    <div class="wrapper">
+        <header class="header">
+            <div class="container header__container">
+                <div class="logo">
+                    <div class="logo__img">
+                        <img src="img/logo.png" alt="Логотип Флорариум" class="logo__pic">
+                    </div>
+                    <div>
+                        <div class="logo__text">
+                            <div class="logo__title">
+                                Florist master
+                            </div>
+                            <div class="logo__subtitle">
+                                Магазин флорариумов
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <nav class="nav">
+                    <ul class="nav__list">
+                        <li class="nav__item">
+                            <a href="#" class="nav__link">Главная</a>
+                        </li>
+                        <li class="nav__item">
+                            <a href="#" class="nav__link">Каталог</a>
+                        </li>
+                        <li class="nav__item">
+                            <a href="#" class="nav__link">Контакты</a>
+                        </li>
+                    </ul>
+                </nav>
+                <a href="tel:+7654321000" class="tel">+7 654 321 00 00</a>
+                <a href="#" class="cart">
+                    <div class="cart__circle">
+                        <img src="img/icons/shopping_cart.png" alt="Корзина для покупок" class="cart__img">
+                    </div>
+                    <div class="cart__price">
+                        45.00$
+                    </div>
+                    <div class="cart__button">
+                        <img src="img/icons/triangle__down.png" alt="Треугольник" class="cart__triangle">
+                    </div>
+                </a>
+                <div class="header__burger">
+                    <span>
+                    </span>
+                </div>
+            </div>
+        </header>
+        <main class="main">
+            <section class="hero">
+                <div class="hero__column hero__left">
+                    <div class="container hero__container">
+                        <div class="hero__content">
+                            <h1 class="hero__title">
+                                Флорариумы <br>
+                                любой формы и размера
+                            </h1>
+                            <div class="hero__desk">
+                                Самая впечатляющая глава в истории ботаники
+                                у вас прямо на столе
+                            </div>
+                            <a href="#" class="catalog-link">Смотреть каталог</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="hero__column hero__right">
+                    <img class="hero__img" src="img/hero_img.jpg" alt="Флорариум">
+                </div>
+            </section>
+            <section class="works">
+                <div class="container">
+                    <div class="section-title">
+                        Готовые работы
+                    </div>
+                    <div class="works__subtitle">
+                        Подари себе флорариум по размеру:
+                    </div>
+                    <ul class="works__size-list">
+                        <li class="works__size-item">
+                            <label>
+                                <input type="radio" name="size" class="works__size-btn">
+                                <div class="works__size-fake">S</div>
+                            </label>
+                        </li>
+                        <li class="works__size-item">
+                            <label>
+                                <input type="radio" name="size" class="works__size-btn">
+                                <div class="works__size-fake">M</div>
+                            </label>
+                        </li>
+                        <li class="works__size-item">
+                            <label>
+                                <input type="radio" name="size" class="works__size-btn">
+                                <div class="works__size-fake">L</div>
+                            </label>
+                        </li>
+                        <li class="works__size-item">
+                            <label>
+                                <input type="radio" name="size" class="works__size-btn">
+                                <div class="works__size-fake">XL</div>
+                            </label>
+                        </li>
+                    </ul>
+                    <div class="works__slider">
+                        <div class="works__slider-control works__slider-prev">
+                            <img src="img/finished_work/prew.png" alt="Кнопка назад" class="works__slider-control-pic">
+                        </div>
+                        <div class="works__slider-control works__slider-next">
+                            <img src="img/finished_work/next.png" alt="Кнопка назад" class="works__slider-control-pic">
+                        </div>
+                        <ul class="works__list">
+                            <li class="works_item">
+                                <a href="#" class="works__product">
+                                    <img src="img/finished_work/oazis.png" alt="" class="works__img">
+                                </a>
+                                <div class="works__product-info">
+                                    <a href="#" class="works__product-naim">
+                                        “Оазис”
+                                    </a>
+                                    <a href="#" class="works__product-desk">
+                                        Набор включает в себя: 3 разновидности суккулентов, тайскую архидею, грунт,
+                                        стеклянный флорариум и элементы декора.
+                                    </a>
+                                    <div class="works__product-futer">
+                                        <span class="works-price">35$</span>
+                                        <button class="in-cart">В корзину</button>
+                                    </div>
+                                </div>
+                            </li>
+                            <li class="works_item">
+                                <a href="#" class="works__product">
+                                    <img src="img/finished_work/dunay.png" alt="" class="works__img">
+                                </a>
+                                <div class="works__product-info">
+                                    <a href="#" class="works__product-naim">
+                                        “Дунай”
+                                    </a>
+                                    <a href="#" class="works__product-desk">
+                                        Набор включает в себя: 4 разновидности суккулентов, тайскую архидею, грунт,
+                                        стеклянный флорариум и элементы декора.
+                                    </a>
+                                    <div class="works__product-futer">
+                                        <span class="works-price">39$</span>
+                                        <button class="in-cart">В корзину</button>
+                                    </div>
+                                </div>
+                            </li>
+                            <li class="works_item">
+                                <a href="#" class="works__product">
+                                    <img src="img/finished_work/riva.png" alt="" class="works__img">
+                                </a>
+                                <div class="works__product-info">
+                                    <a href="#" class="works__product-naim">
+                                        “Рива”
+                                    </a>
+                                    <a href="#" class="works__product-desk">
+                                        Набор включает в себя: 5 разновидности суккулентов, тайскую архидею, грунт,
+                                        стеклянный флорариум и элементы декора.
+                                    </a>
+                                    <div class="works__product-futer">
+                                        <span class="works-price">44$</span>
+                                        <button class="in-cart">В корзину</button>
+                                    </div>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </section>
+            <section class="about">
+                <div class="container">
+                    <div class="section-title">
+                        О нас говорят
+                    </div>
+                    <div class="about__review">
+                        <span class="about__name">
+                            Иван
+                        </span>
+                        <span class="about__position">
+                            директор “Office”
+                        </span>
+                        <p class="about__review-text">
+                            Обратился в компанию “Floris master” для озеленения нашего офиса, теперь на рабочем месте
+                            царит гармония и уют.
+                        </p>
+                        <div class="about__img">
+                            <img src="img/rev__photo/ivan.png" alt="" class="about__img-review">
+                        </div>
+                    </div>
+                    <div class="about__review">
+                        <span class="about__name">
+                            Катя
+                        </span>
+                        <span class="about__position">
+                            фрилансер
+                        </span>
+                        <p class="about__review-text">
+                            Решила добавить эстетики в интерьер свого дома, ребята из “Florist master” справились с этим
+                            как никто другой.
+                        </p>
+                        <div class="about__img">
+                            <img src="img/rev__photo/kate.png" alt="" class="about__img-review">
+                        </div>
+                    </div>
+                    <div class="about__review">
+                        <span class="about__name">
+                            Владимир
+                        </span>
+                        <span class="about__position">
+                            безработный
+                        </span>
+                        <p class="about__review-text">
+                            Люблю цветочки и все что с ними связано.
+                        </p>
+                        <div class="about__img">
+                            <img src="img/rev__photo/vladimir.png" alt="" class="about__img-review">
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </main>
+    </div>
+</body>
+
+</html>
